@@ -1,10 +1,12 @@
 package com.mikk.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * 省
  */
 
-public class Province {
+public class Province extends DataSupport {
 
     private int id;
 
